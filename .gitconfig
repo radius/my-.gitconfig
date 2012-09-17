@@ -1,0 +1,25 @@
+[user]
+  name = radius
+  email = me@gmail.com
+[credential]
+  helper = osxkeychain
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow black
+  local = yellow
+  remote = magenta
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = green magenta
+  new = green blue
+  whitespace = black reverse
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan reverse
+  branch = magenta
+  updated = green reverse
+[core]
+    pager = less -R
